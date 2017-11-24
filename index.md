@@ -1,4 +1,4 @@
-## Neo4j Desktop Developers
+## Building GraphApps to run on Neo4j Desktop
 
 Neo4j Desktop is a part of the Neo4j Graph Platform, designed to make it
 easy to develop and deliver GraphApps. Desktop takes care of managing local
@@ -14,6 +14,7 @@ This is the basic idea of Neo4j Desktop...
 - Content is anything file-like which can be shared among people or apps
   - content isn't just persisted data, it's a point of collaboration
 - Graphs are Neo4j Databases with a common heritage or domain
+
 
 ## Getting Started
 
@@ -49,4 +50,3 @@ people. So, we'd like to work closely with a small group of people until everyth
 ### Any other questions?
 
 Please ask [ABK](mailto:andreas@neo4j.com).
- 
