@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+## Neo4j Desktop Developers
 
-You can use the [editor on GitHub](https://github.com/neo4j-apps/neo4j-apps.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Neo4j Desktop is a part of the Neo4j Graph Platform, designed to make it
+easy to develop and deliver GraphApps. Desktop takes care of managing local
+and remote Neo4j Graph Databases. You can focus on making awesome applications.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is the basic idea of Neo4j Desktop...
 
-### Markdown
+![GitHub Logo](/assets/images/desktop_block_diagram.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Projects are a context and container for related graph stuff
+- GraphApps are [single-page applications](https://en.wikipedia.org/wiki/Single-page_application)
+  - installed Desktop-wide, but available selectively within a Project
+- Content is anything file-like which can be shared among people or apps
+  - content isn't just persisted data, it's a point of collaboration
+- Graphs are Neo4j Databases with a common heritage or domain
 
-```markdown
-Syntax highlighted code block
+## Getting Started
 
-# Header 1
-## Header 2
-### Header 3
+Interested in building a GraphApp that can be deployed to Neo4j Desktop? Fantastic. :)
 
-- Bulleted
-- List
+We've provided some code repositories which explain the details and provide
+example applications.
 
-1. Numbered
-2. List
+- [GraphApp Starter](https://github.com/neo4j-apps/graph-app-starter) &mdash;
+  basic documentation and examples
+- [GraphApp Kit](https://github.com/neo4j-apps/graph-app-kit) &mdash;
+  a collection of React components
+- [Neo4j Desktop Issues](https://github.com/neo4j-apps/neo4j-desktop) &mdash;
+  a public repository for reporting issues with Neo4j Desktop
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+## FAQ
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Why build a GraphApp instead of a standalone application or webapp?
 
-### Jekyll Themes
+Do both. :wink:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/neo4j-apps/neo4j-apps.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+A GraphApp is just a single-page application which takes advantage of some
+services provided by Neo4j Desktop &mdash; primarily the management of Neo4j Databases. That makes it super convenient to try out ideas.
 
-### Support or Contact
+You could take an existing app and wrap it into a GraphApp, or take a GraphApp and promote it to a standalone application.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Hey, why are these repositories private?
+
+This FAQ, these repositories, and the whole Neo4j-Desktop-as-an-application-platform is fresh, raw and evolving quickly.  While the project is more volatile we want to disrupt fewer
+people. So, we'd like to work closely with a small group of people until everything settles down.
+
+### Any other questions?
+
+Please ask [ABK](mailto:andreas@neo4j.com).
+ 
